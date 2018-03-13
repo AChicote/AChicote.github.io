@@ -28,7 +28,7 @@ Yes, I let myself go and get sucked in by my origins. I just had to work on a da
   
   4. Once I have all data combined, I will decide what course of action to take.
   
-  5. The link in github for a more detailed and technical explanation is available: [my github](https://alexchicote.github.io/. I will keep on updating them as I move forward.
+  5. The link in github for a more detailed and technical explanation is available: [my github](https://github.com/AlexChicote/BarcelonaAccidents). I will keep on updating them as I move forward.
 
   
 ## Non-technical description of BarcelonaAccidents.
