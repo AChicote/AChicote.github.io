@@ -3,19 +3,25 @@ layout: post
 title: BarcelonaAccidents, Coming soon!!!
 ---
 
-es, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days.
+Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days.
 
 ![nofrauds](/images/BCN01.jpg){:height="300px" width="400px"}
 
 
 ## Brief description of Fraud Detection.
   1. Dataset contains all the accidents that the local police attended from 2010 to 2017.
-  2. The information is gathered is spread in different csv: 
+  2. The information is gathered is spread in different csv:
+
     * Accidents. This one has all information about the accident including time, location, number of victims and deceased and he number of vehicles. It also includes a column in which it is determined if it was a pedestrian responasible for the event.
+    
     * Causes of the accident. This one adds 'initial_street' and 'mediate_cause'. While the meaning of the first added column is unclear and will need further analysis, the second one -'mediate_cause' - indicates the reason - if any - behind the accident. 
+    
     * People. INcorporates information about the people involved like age, gender, degree of injuries, who is reponsible etc
+    
     * Types. This csv adds a filed named 'accidents_details' and it describes the reason behind the accident.
+    
     * Vehicles involved. This file adds a bunch of details about the vehicle involved from a description of it up to its model and brand name. It also includes info about the experience of the driver.
+  
   3. It has been a hard work to combine all different csv due to different encodings and column's names.
   4. Once I have all data combined, I will decide what course of action to take.
   5. The link in github for a more detailed and technical explanation is available: [my github](https://alexchicote.github.io/. I will keep on updating them as I move forward.
