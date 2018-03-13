@@ -11,20 +11,22 @@ es, I let myself go and get sucked in by my origins. I just had to work on a dat
 ## Brief description of Fraud Detection.
   1. Dataset contains all the accidents that the local police attended from 2010 to 2017.
   2. The information is gathered is spread in different csv: 
-    Accidents. This one has all information about the accident including time, location, number of victims and deceased and he number of vehicles. It also includes a column in which it is determined if it was a pedestrian responasible for the event.
-    Causes of the accident. This one adds 'initial_street' and 'mediate_cause'. While the meaning of the first added column is unclear and will need further analysis, the second one -'mediate_cause' - indicates the reason - if any - behind the accident. 
-    People. INcorporates information about the people involved like age, gender, degree of injuries, who is reponsible etc
-    Types. This csv adds a filed named 'accidents_details' and it describes the reason behind the accident.
-    Vehicles involved. This file adds a bunch of details about the vehicle involved from a description of it up to its model and brand name. It also includes info about the experience of the driver.
+    * Accidents. This one has all information about the accident including time, location, number of victims and deceased and he number of vehicles. It also includes a column in which it is determined if it was a pedestrian responasible for the event.
+    * Causes of the accident. This one adds 'initial_street' and 'mediate_cause'. While the meaning of the first added column is unclear and will need further analysis, the second one -'mediate_cause' - indicates the reason - if any - behind the accident. 
+    * People. INcorporates information about the people involved like age, gender, degree of injuries, who is reponsible etc
+    * Types. This csv adds a filed named 'accidents_details' and it describes the reason behind the accident.
+    * Vehicles involved. This file adds a bunch of details about the vehicle involved from a description of it up to its model and brand name. It also includes info about the experience of the driver.
   3. It has been a hard work to combine all different csv due to different encodings and column's names.
   4. Once I have all data combined, I will decide what course of action to take.
-  5. The link in github for a more detailed and technical explanation is available: AlexChicote/BarcelonaAccidents. I will keep on updating them as I move forward.
+  5. The link in github for a more detailed and technical explanation is available: [my github](https://alexchicote.github.io/. I will keep on updating them as I move forward.
 
   
 ## Non-technical description of BarcelonaAccidents.
 
 ## Gathering the data.
   
+  First I combine all files for accidents, causes, people, types and vehicles from 2010 to 2017.
+
 ```
 def combinant_csv(llista, year_0, year_1):
 
@@ -174,6 +176,11 @@ def combinant_csv(llista, year_0, year_1):
             llista.drop(llista[llista['shift'] == '13:25:52'].index, inplace=True)
         
     return llista
+```
+
+Once done, I merged them all together using the number of case file as a commmon index.
+
+```
 #####Merging dataframes
 def merging_df(name1, aggregated_df):
     adding = set(name1.columns) - set(aggregated_df.columns)
