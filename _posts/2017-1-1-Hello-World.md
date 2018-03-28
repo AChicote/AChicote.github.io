@@ -3,7 +3,9 @@ layout: post
 title: BarcelonaAccidents 2010-17
 ---
 
-Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days.
+Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days ('Stay strong and together')
+
+I obtained all the information thanks to openData Barcelona. All this information is easily available in [BarcelonaOpenData]http://opendata-ajuntament.barcelona.cat/en/
 
 ![nofrauds](/images/BCN01.jpg){:height="300px" width="400px"}
 
@@ -199,3 +201,5 @@ def merging_df(name1, aggregated_df):
     return aggregated_df
 
 ```
+
+Secondly, I analyze data to try to figure out where the information is hidden. I start with the file accidents.
