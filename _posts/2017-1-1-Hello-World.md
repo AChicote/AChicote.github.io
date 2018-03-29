@@ -65,10 +65,12 @@ Secondly, I analyze every different group of data to try to figure out where the
 
 ## ACCIDENTS
 
-In this file, we have all information concerning the accidents (remember only those in which Barcelona local police is involved) like location, time, number of vehicles, number of people implied and the degree of its injuries.
+In this file, we have all information concerning the accidents (reminder: only those in which Barcelona local police is involved) like location, time, number of vehicles, number of people implied and the degree of its injuries.
 
 As a starter, I will consider mainly the number of accidents and the number of people that die in the event
 
 1. Year.
 
 ![year](/users/fcbnyc/dsi/datasets/BarcelonaAccidents/charts/accidents_deads_per_year.png){:height="300px" width="400px"}
+
+The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their life in those have clearly diminished.
