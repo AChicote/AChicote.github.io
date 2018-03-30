@@ -5,7 +5,7 @@ title: BarcelonaAccidents 2010-17
 
 Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days ('Stay strong and together')
 
-I obtained all the information thanks to openData Barcelona. All this information is easily available in ![BarcelonaOpenData]http://opendata-ajuntament.barcelona.cat/en/
+I obtained all the information thanks to openData Barcelona. All this information is easily available in [BarcelonaOpenData]http://opendata-ajuntament.barcelona.cat/en/
 
 ![nofrauds](/images/BCN01.jpg){:height="300px" width="400px"}
 
@@ -29,7 +29,7 @@ I obtained all the information thanks to openData Barcelona. All this informatio
   3. It has been a hard work to combine all different CSV due to different encodings and column's
   names.
   4. Once I have all data combined, I will analyze all different files to try to make some prediction at the end using the total file.
-  5. The link in github for a more detailed and technical explanation is available:![BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents). I will keep on updating them as I move forward.
+  5. The link in github for a more detailed and technical explanation is available:[BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents). I will keep on updating them as I move forward.
 
 
 ## Non-technical description of BarcelonaAccidents.
