@@ -5,7 +5,7 @@ title: BarcelonaAccidents 2010-17
 
 Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days ('Stay strong and together')
 
-I obtained all the information thanks to openData Barcelona. All this information is easily available in [BarcelonaOpenData]http://opendata-ajuntament.barcelona.cat/en/
+I obtained all the information thanks to openData Barcelona. All this information is easily available in [BarcelonaOpenData](http://opendata-ajuntament.barcelona.cat/en/)
 
 ![nofrauds](/images/BCN01.jpg){:height="300px" width="400px"}
 
@@ -29,7 +29,7 @@ I obtained all the information thanks to openData Barcelona. All this informatio
   3. It has been a hard work to combine all different CSV due to different encodings and column's
   names.
   4. Once I have all data combined, I will analyze all different files to try to make some prediction at the end using the total file.
-  5. The link in github for a more detailed and technical explanation is available:[BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents). I will keep on updating them as I move forward.
+  5. The link in github for a more detailed and technical explanation is available here:[BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents). I will keep on updating them as I move forward.
 
 
 ## Non-technical description of BarcelonaAccidents.
@@ -102,3 +102,13 @@ In this case, we can see how the line representing the number of deads, peaks up
 This new chart is confirming all what we have been seeing so far. It is that the most risky time to drive in Barcelona is during the early morning. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deads. In the second one, I try to make that visualization clearer.
 
 ![average_per_hour](/images/average_per_hour.png){:height="300px" width="400px"}
+
+6. District.
+
+I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info.
+
+![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="300px" width="400px"}
+
+7. Accidents with bigger number of casualties.
+
+####need to esport tables
