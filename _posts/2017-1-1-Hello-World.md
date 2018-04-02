@@ -70,32 +70,32 @@ In this file, we have all information concerning the accidents (reminder: only t
 As a starter, I will consider mainly the number of accidents and the number of people that die in the event
 
 
-1. Year.
+* Year.
 
-![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="300px" width="400px"}
+![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="300px" width="600px"}
 
 The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their life in those have clearly diminished.
 
-2. Month.
+* Month.
 
 ![accidents_deads_per_month2](/images/accidents_deads_per_month2.png){:height="300px" width="400px"}
 
 In the graph we can see on yellow the amount of accidents per month, on red the amount of deads per month and, finally, the average of deads per accident shown in a blue line.
 The months (in my modest opinion) to point out is September and August. September is the month was the biggest amount of dead people what surprised unless explained by being the month right after August which has the biggest average the deads per accidents that might be associated to the  recreational factor.
 
-3. Week day.
+* Week day.
 
 ![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
 
 Using the same colors and references than before, we can see how Saturday is the day where the deads per accidents get the higher rate. It is also important to point out Monday as the day with more accidents and deads. So I had to check the weekend and this is what I did.
 
-4. Weekend.
+* Weekend.
 
 ![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
 
 In this case, we can see how the line representing the number of deads, peaks up on Friday night and not as much during Saturday night. This is important to point out, I believe, beacuse this explains why Saturday stands out in number of deads. It is obvious that what we call Friday night is way more active when it comes to accidents and deads that at least myself expected.
 
-5. Hourly.
+* Hourly.
 
 ![accidents_deads_per_hour](/images/accidents_deads_per_hour.png){:height="300px" width="400px"}
 
@@ -103,12 +103,12 @@ This new chart is confirming all what we have been seeing so far. It is that the
 
 ![average_per_hour](/images/average_per_hour.png){:height="300px" width="400px"}
 
-6. District.
+* District.
 
 I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info.
 
 ![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="300px" width="400px"}
 
-7. Accidents with bigger number of casualties.
+* Accidents with bigger number of casualties.
 
 ####need to esport tables
