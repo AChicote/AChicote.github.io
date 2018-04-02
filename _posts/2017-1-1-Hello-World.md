@@ -105,9 +105,9 @@ This new chart is confirming all what we have been seeing so far. It is that the
 
 * District.
 
-I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info.
+I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info apart from saying that Eixample takes most of the action. Knowing Barcelona, I can tell you that this is in the middle of the city with a lot of important street and avenues crossing.
 
-![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="450px" width="800px"}
+![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="500px" width="800px"}
 
 * Accidents with bigger number of casualties.
 
