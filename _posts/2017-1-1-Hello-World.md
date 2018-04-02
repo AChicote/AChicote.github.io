@@ -85,29 +85,29 @@ The months (in my modest opinion) to point out is September and August. Septembe
 
 * Week day.
 
-![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
+![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="450px" width="800px"}
 
 Using the same colors and references than before, we can see how Saturday is the day where the deads per accidents get the higher rate. It is also important to point out Monday as the day with more accidents and deads. So I had to check the weekend and this is what I did.
 
 * Weekend.
 
-![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
+![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="450px" width="800px"}
 
 In this case, we can see how the line representing the number of deads, peaks up on Friday night and not as much during Saturday night. This is important to point out, I believe, beacuse this explains why Saturday stands out in number of deads. It is obvious that what we call Friday night is way more active when it comes to accidents and deads that at least myself expected.
 
 * Hourly.
 
-![accidents_deads_per_hour](/images/accidents_deads_per_hour.png){:height="300px" width="400px"}
+![accidents_deads_per_hour](/images/accidents_deads_per_hour.png){:height="450px" width="800px"}
 
 This new chart is confirming all what we have been seeing so far. It is that the most risky time to drive in Barcelona is during the early morning. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deads. In the second one, I try to make that visualization clearer.
 
-![average_per_hour](/images/average_per_hour.png){:height="300px" width="400px"}
+![average_per_hour](/images/average_per_hour.png){:height="450px" width="800px"}
 
 * District.
 
 I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info.
 
-![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="300px" width="400px"}
+![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="450px" width="800px"}
 
 * Accidents with bigger number of casualties.
 
