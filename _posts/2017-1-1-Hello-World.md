@@ -69,8 +69,36 @@ In this file, we have all information concerning the accidents (reminder: only t
 
 As a starter, I will consider mainly the number of accidents and the number of people that die in the event
 
+
 1. Year.
 
-![year](/users/fcbnyc/dsi/datasets/BarcelonaAccidents/charts/accidents_deads_per_year.png){:height="300px" width="400px"}
+![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="300px" width="400px"}
 
 The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their life in those have clearly diminished.
+
+2. Month.
+
+![accidents_deads_per_month2](/images/accidents_deads_per_month2.png){:height="300px" width="400px"}
+
+In the graph we can see on yellow the amount of accidents per month, on red the amount of deads per month and, finally, the average of deads per accident shown in a blue line.
+The months (in my modest opinion) to point out is September and August. September is the month was the biggest amount of dead people what surprised unless explained by being the month right after August which has the biggest average the deads per accidents that might be associated to the  recreational factor.
+
+3. Week day.
+
+![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
+
+Using the same colors and references than before, we can see how Saturday is the day where the deads per accidents get the higher rate. It is also important to point out Monday as the day with more accidents and deads. So I had to check the weekend and this is what I did.
+
+4. Weekend.
+
+![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="300px" width="400px"}
+
+In this case, we can see how the line representing the number of deads, peaks up on Friday night and not as much during Saturday night. This is important to point out, I believe, beacuse this explains why Saturday stands out in number of deads. It is obvious that what we call Friday night is way more active when it comes to accidents and deads that at least myself expected.
+
+5. Hourly.
+
+![accidents_deads_per_hour](/images/accidents_deads_per_hour.png){:height="300px" width="400px"}
+
+This new chart is confirming all what we have been seeing so far. It is that the most risky time to drive in Barcelona is during the early morning. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deads. In the second one, I try to make that visualization clearer.
+
+![average_per_hour](/images/average_per_hour.png){:height="300px" width="400px"}
