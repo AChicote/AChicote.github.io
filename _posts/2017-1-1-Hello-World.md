@@ -7,7 +7,7 @@ Yes, I let myself go and get sucked in by my origins. I just had to work on a da
 
 I obtained all the information thanks to openData Barcelona. All this information is easily available in [BarcelonaOpenData](http://opendata-ajuntament.barcelona.cat/en/)
 
-![nofrauds](/images/BCN01.jpg){:height="300px" width="400px"}
+![nofrauds](/images/BCN01.jpg){:height="300px" width="600px"}
 
 
 ## Brief description of Barcelona Accidents.
