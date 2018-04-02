@@ -72,13 +72,13 @@ As a starter, I will consider mainly the number of accidents and the number of p
 
 * Year.
 
-![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="500px" width="800px"}
+![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="400px" width="800px"}
 
 The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their life in those have clearly diminished.
 
 * Month.
 
-![accidents_deads_per_month2](/images/accidents_deads_per_month2.png){:height="300px" width="400px"}
+![accidents_deads_per_month2](/images/accidents_deads_per_month2.png){:height="400px" width="800px"}
 
 In the graph we can see on yellow the amount of accidents per month, on red the amount of deads per month and, finally, the average of deads per accident shown in a blue line.
 The months (in my modest opinion) to point out is September and August. September is the month was the biggest amount of dead people what surprised unless explained by being the month right after August which has the biggest average the deads per accidents that might be associated to the  recreational factor.
