@@ -72,7 +72,7 @@ As a starter, I will consider mainly the number of accidents and the number of p
 
 * Year.
 
-![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="300px" width="600px"}
+![accidents_deads_per_year](/images/accidents_deads_per_year.png){:height="500px" width="800px"}
 
 The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their life in those have clearly diminished.
 
