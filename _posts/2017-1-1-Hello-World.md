@@ -91,7 +91,7 @@ Using the same colors and references than before, we can see how Saturday is the
 
 * Weekend.
 
-![accidents_deads_per_weekday2](/images/accidents_deads_per_weekday2.png){:height="450px" width="800px"}
+![accidents_deads_per_weekend2](/images/accidents_deads_per_weekend2.png){:height="450px" width="800px"}
 
 In this case, we can see how the line representing the number of deads, peaks up on Friday night and not as much during Saturday night. This is important to point out, I believe, beacuse this explains why Saturday stands out in number of deads. It is obvious that what we call Friday night is way more active when it comes to accidents and deads that at least myself expected.
 
@@ -105,10 +105,10 @@ This new chart is confirming all what we have been seeing so far. It is that the
 
 * District.
 
-I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show the chart without adding more info apart from saying that Eixample takes most of the action. Knowing Barcelona, I can tell you that this is in the middle of the city with a lot of important street and avenues crossing.
+I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its position (a district that is located in middles of important streets and a lot of traffic is guided through it) might be introduced to the analysis in order to have a real deep understanding. I do not have the data so I will just show two charts where we can see how lathough it is where most accidents take place they are the ones with the least deads. Knowing Barcelona, I can tell you that this is in the middle of the city with a lot of important street and avenues crossing.
 
 ![deads_accidents_per_district](/images/deads_accidents_per_district.png){:height="500px" width="800px"}
 
 * Accidents with bigger number of casualties.
 
-####need to export tables
+####need to export tables and fix weekday chart and add a district one by average. Then I have to see what I do with peds column
