@@ -112,13 +112,16 @@ I could not let it go by without having and analysis about the neighborhoods or 
 ####need to export tables and fix weekday chart and add a district one by average. Then I have to see what I do with peds column
 
 
-* Let's have a closer look at the number of deads per accidents.
+* Let's have a closer look at the number of deads and injured per accidents.
 
   1. The accidents that have deads are very small (less than 1%).
 
     ![TauladeadsandAccidents](/images/TauladeadsandAccidents.png){:height="300px" width="500px"}
 
-  2. It is obvious that it these circumstances one or two accidents with a higher than the normal number of casualties might have a significative impact overall.
-  3. It is also important to point out that the number of accidents that have people injured (minor, severely or dead) are also small compared with the total.
+  2. It is obvious that it these circumstances one or two accidents with a higher than the normal number of casualties might have a significative impact overall. In this chart we can see what I mean: only counting the accidents with fatalities, the accidents with one are over 97% of the total.
+      ![Taula2](/images/Taula2.png){:height="300px" width="500px"}
 
+  3. It is also important to point out that the number of accidents that have people injured (minor, severely or dead) are not that  small compared with the total.
+
+    ![TaulaTotal](/images/TaulaTotal.png){:height="300px" width="500px"}
 ####need to export tables and fix weekday chart and add a district one by average. Then I have to see what I do with peds column
