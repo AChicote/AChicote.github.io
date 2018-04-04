@@ -116,7 +116,7 @@ I could not let it go by without having and analysis about the neighborhoods or 
 
   1. The accidents that have deads are very small (less than 1%).
 
-![TaulaDeadsandAccidents](/images/TaulaDeadsandAccidents.png){:height="400px" width="600px"}
+![TauladeadsandAccidents](/images/TauladeadsandAccidents.png){:height="400px" width="600px"}
 
   2. It is obvious that it these circumstances one or two accidents with a higher than the normal number of casualties might have a significative impact overall.
   3. It is also important to point out that the number of accidents that have people injured (minor, severely or dead) are also small compared with the total.
