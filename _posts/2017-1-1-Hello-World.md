@@ -139,6 +139,6 @@ Said that, I just show a plot with the ratio of deaths per accident per number o
 
   In this dataset, we have a field with the information related to the cause, I understand, behind the accident. As I show in the chart, it has over 50% of 'Unknown" that makes it worthless a further analysis for now. Maybe in the next coming files, I might be able to address the issue.
 
-    ![TaulaPedestrians](/images/TaulaPedestrians.png){:height="200px" width="500px"}
+    ![TaulaPedestrians](/images/TaulaPedestrians.png){:height="200px" width="600px"}
 
-  As shown above, the 'Unknown' is over 57% of the accidents and the number of deaths that would go unexplained.
+  As shown above, the 'Unknown' is over 57% of the accidents and 52% of the deaths that would go unexplained.
