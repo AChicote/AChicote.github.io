@@ -131,14 +131,14 @@ Obviously, the probability of having more vehicles involved in an accident decre
 
 Said that, I just show a plot with the ratio of deaths per accident per number of vehicles. I stopped at 9 because there is an outlier: one accident with deaths and 9 vehicle involved that throws off everything as you can see in the following chart.
 
-  ![ratio_deaths_accidents_vehicles](/images/ratio_deaths_accidents_vehicles.png){:height="200px" width="500px"}
+  ![ratio_deaths_accidents_vehicles](/images/ratio_deaths_accidents_vehicles.png){:height="300px" width="600px"}
 
-  ![TaulaVehicles](/images/TaulaVehicles.png){:height="200px" width="500px"}
+  ![TaulaVehicles](/images/TaulaVehicles.png){:height="300px" width="600px"}
 
   * What about the the field "pedestrian cause"?
 
   In this dataset, we have a field with the information related to the cause, I understand, behind the accident. As I show in the chart, it has over 50% of 'Unknown" that makes it worthless a further analysis for now. Maybe in the next coming files, I might be able to address the issue.
 
-    ![TaulaPedestrian](/images/TaulaPedestrian.png){:height="200px" width="500px"}
+    ![TaulaPedestrians](/images/TaulaPedestrians.png){:height="200px" width="500px"}
 
   As shown above, the 'Unknown' is over 57% of the accidents and the number of deaths that would go unexplained.
