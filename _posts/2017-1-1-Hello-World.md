@@ -12,7 +12,7 @@ I obtained all the information thanks to openData Barcelona. All this informatio
 
 ## Brief description of Barcelona Accidents.
 
-  1. Dataset contains all the accidents that the local police attended from 2010 to 2017.
+  1. Dataset contains all the accidents that the local police attended from 2010 to 2018.
   2. The information is gathered and spread in different CSV:
     - Accidents.
     This one has all information about the accident including time, location, number of victims and deceased and he number of vehicles. It also includes a column in which it is determined if it was a pedestrian responsible for the event.
@@ -70,44 +70,42 @@ As a starter, I will consider mainly the number of accidents and the number of p
 
 * Year.
 
-![accidents_deaths_per_year](/images/accidents_deaths_per_year.png){:height="400px" width="800px"}
+![accidents_deaths_per_year](/images/accidents_deaths_per_year_2018.png){:height="400px" width="800px"}
 
-The trend is clear in both cases; while the accidents have been increasing during last years, the number of people that lost their lives in those have clearly diminished.
+The trend is clear in both cases; while the accidents have been increasing during last years up until 2018 where the were reduced, the number of people that lost their lives in those have clearly diminished except for 3 years: 2014, 2016 and 2018.
 
 * Month.
 
-![accidents_deaths_per_month2](/images/accidents_deaths_per_month2.png){:height="400px" width="800px"}
+![accidents_deaths_per_month2](/images/accidents_deaths_per_month_2018.png){:height="400px" width="800px"}
 
-In the graph, we can see on yellow the amount of accidents per month, on red the number of deaths per month and, finally, the average of deaths per accident shown in a blue line.
-The months (in my modest opinion) that deserve to be pointed out are the summer ones but essentially  September and August. September is the month with the biggest amount of dead people It actually surprised me and the only explanation I find is that it is the final month of the summer right after August which has the biggest average the deaths per accidents. It all makes me consider the recreational factor of the traffic trips as the main reason of their high number of accidents and sadly deaths.
+In the graph, we can see how the number of accidents keep steadily during most part of the year except for July and August where they clearly go down.
+When it comes to analyze deaths, the picture changes. WHile it looks like the previous months to summer it slows down, they peak in summer to then go down again.
 
 * Weekday.
 
-![accidents_deaths_per_weekday2](/images/accidents_deaths_per_weekday2.png){:height="450px" width="800px"}
+![accidents_deaths_per_weekday2](/images/accidents_deaths_per_weekday_2018.png){:height="450px" width="800px"}
 
-Using the same colors and references than before, we can see how Saturday is the day where the deaths per accidents get the higher rate. It is also important to point out Monday as the day with more accidents and deaths. So I will next check the weekend and this is what I found out.
+Do you see how the accidents grow constantly during the week to reach its maximum on Friday and then go down during the weekend? Well, when it comes to deaths the analysis is that weekends are the high days while Monday... What does it mean? Isn't it strange to see Monday so high out of nowhere?
 
 * Weekend.
 
-![accidents_deaths_per_weekend2](/images/accidents_deaths_per_weekend2.png){:height="450px" width="800px"}
+![accidents_deaths_per_weekend2](/images/accidents_deaths_per_weekend2_2018.png){:height="450px" width="800px"}
 
-In this case, we can see how the line representing the number of deaths, peaks up on Friday night and not as much during Saturday night. This is important to point out because this explains why Saturday stands out in the number of deaths. Saturday includes the late hours of the Friday night and early hours of Saturday night. But if we understand Friday night as the hours from Friday 10pm to Saturday morning 5am, Friday should stand out as the most dangerous hours of the week.
+In this case, we can see how the line representing the number of deaths, peaks up on Friday night and also on Saturday night but not as much. This is important to point out because this explains why Saturday stands out in the number of deaths. Saturday includes the late hours of the Friday night and early hours of Saturday night. But if we understand Friday night as the hours from Friday 10pm to Saturday morning 5am, Friday should stand out as the most dangerous hours of the week.
 
 * Hourly.
 
-![accidents_deaths_per_hour](/images/accidents_deaths_per_hour.png){:height="450px" width="800px"}
+![accidents_deaths_per_hour](/images/accidents_deaths_per_hour_2018.png){:height="450px" width="800px"}
 
-This new chart is confirming all that we have been seeing so far. It is that the riskiest time to drive in Barcelona is during the early morning mainly during the weekend. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deaths. In the second one, I try to make that visualization clearer.
-
-![average_per_hour](/images/average_per_hour.png){:height="450px" width="800px"}
+This new chart is confirming all that we have been seeing so far. It is that the riskiest time to drive in Barcelona is during the early morning mainly during the weekend. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deaths.
 
 * District.
 
 I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its location (a district that is placed in the middle of important streets and a lot of traffic is funneled through it) might be introduced to the analysis in order to have a real deep understanding.
 
-What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts, where there is not a lot of traffic, gets the winning position.
+What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts and Nou Bariis, where there is not a lot of traffic, gets the winning position.
 
-![ratio_per_district](/images/ratio_per_district.png){:height="500px" width="800px"}
+![ratio_per_district](/images/ratio_per_district_2018.png){:height="500px" width="800px"}
 
 
 
@@ -137,8 +135,8 @@ Said that, I just show a plot with the ratio of deaths per accident per number o
 
   * What about the the field "pedestrian cause"?
 
-  In this dataset, we have a field with the information related to the cause, I understand, behind the accident. As I show in the chart, it has over 50% of 'Unknown" that makes it worthless a further analysis for now. Maybe in the next coming files, I might be able to address the issue.
+  In this dataset, we have a field with the information related to the cause behind the accident when a pedestrian is involved. As I show in the chart, it has over 50% of 'Unknown" what makes it hard to analyze but let's have a look at the causes when they are known.
 
-  ![TaulaPedestrians](/images/TaulaPedestrians.png){:height="200px" width="600px"}
+  ![TaulaPedestrians](/images/pedestrian_cause_accidents_2018.png){:height="200px" width="600px"}
 
-  As shown above, the 'Unknown' is over 57% of the accidents and 52% of the deaths that would go unexplained.
+  
