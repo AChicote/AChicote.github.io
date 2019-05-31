@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BarcelonaAccidents 2010-17
+title: BarcelonaAccidents 2010-18
 ---
 
 Yes, I let myself go and get sucked in by my origins. I just had to work on a database that is from my hometown (Barcelona) as a modest way to show my support to the fellow Catalans in these sad days ('Stay strong and together')
@@ -138,5 +138,3 @@ Said that, I just show a plot with the ratio of deaths per accident per number o
   In this dataset, we have a field with the information related to the cause behind the accident when a pedestrian is involved. As I show in the chart, it has over 50% of 'Unknown" what makes it hard to analyze but let's have a look at the causes when they are known.
 
   ![TaulaPedestrians](/images/pedestrian_cause_accidents_2018.png){:height="200px" width="600px"}
-
-  
