@@ -97,14 +97,13 @@ Location Based Analysis
 
 I will analyze accidents and deaths by district in Barcelona. I will show 3 plots, the value to measure in each one is: accidents, deaths or ratio deaths/accidents, respectively. I also classify by color each district a darker color corresponding a bigger value. Important to note how two districts (Eixample and Sant Marti) are the ones with more accidents and deaths ...
 
-![shapefile_district_accidents](/images/shapefile_district_acc.png | ![shapefile_district_deaths](/images/shapefile_district_dea.png)
+![shapefile_district_accidents](/images/shapefile_district_acc.png) | ![shapefile_district_deaths](/images/shapefile_district_dea.png)
 
 
 
 
 What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts and Nou Bariis, where there is not a lot of traffic, gets the winning position.
 
-![ratio_per_district](/images/ratio_per_district_2018.png){:height="500px" width="800px"}
 
 
 
