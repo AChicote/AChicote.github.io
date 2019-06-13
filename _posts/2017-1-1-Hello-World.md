@@ -35,7 +35,7 @@ I obtained all the information thanks to openData Barcelona. All these file are 
 
 ## Gathering the data.
 
-First I combine all files for accidents, causes, people, types and vehicles from 2010 to 2018. Once done, I merged them all together using the number of case file as a common index. You can see the coding in [BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents/BarcelonaAccidents2010-18.ipynb)
+First I combine all files for accidents, causes, people, types and vehicles from 2010 to 2018. Once done, I merged them all together using the number of case file as a common index. You can see the coding in [BarcelonaAccidents](https://github.com/AlexChicote/BarcelonaAccidents/BarcelonaAccidents2018----NETEJANT.ipynb)
 
 DATA ANALYSIS
 
@@ -51,7 +51,7 @@ Time Based Analysis
 
 The trend is clear in both cases; while the accidents have been increasing during last years up until 2018 where the were reduced, the number of people that lost their lives in those have clearly diminished except for 3 years: 2014, 2016 and 2018. A more detailed analysis show how the ratio deaths per accidents spiked for 2018.
 
-![accidents_deaths_per_year](/images/avg_deaths_accident_per_year_2018.png){:height="400px" width="800px"}
+![avg_deaths_accident_per_year](/images/avg_deaths_accident_per_year_2018.png){:height="400px" width="800px"}
 
 * Month.
 
@@ -95,7 +95,12 @@ Location Based Analysis
 
 * District.
 
-I could not let it go by without having and analysis about the neighborhoods or districts. It is important to say that traffic and accidents have a different geographic relation. The size of every district, its structure (a lot of pedestrian streets where traffic is not allowed) or its location (a district that is placed in the middle of important streets and a lot of traffic is funneled through it) might be introduced to the analysis in order to have a real deep understanding.
+I will analyze accidents and deaths by district in Barcelona. I will show 3 plots, the value to measure in each one is: accidents, deaths or ratio deaths/accidents, respectively. I also classify by color each district a darker color corresponding a bigger value. Important to note how two districts (Eixample and Sant Marti) are the ones with more accidents and deaths ...
+
+![shapefile_district_accidents](/images/shapefile_district_acc.png | ![shapefile_district_deaths](/images/shapefile_district_dea.png)
+
+
+
 
 What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts and Nou Bariis, where there is not a lot of traffic, gets the winning position.
 
