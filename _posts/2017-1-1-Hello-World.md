@@ -72,7 +72,7 @@ Do you see how the accidents grow constantly during the week to reach its maximu
 
 In this case, we can see how the line representing the number of deaths, peaks up on Friday night and also on Saturday night but not as much. This is important to point out because this explains why Saturday stands out in the number of deaths. Saturday includes the late hours of the Friday night and early hours of Saturday night. But if we understand Friday night as the hours from Friday 10pm to Saturday morning 5am, Friday should stand out as the most dangerous hours of the week.
 
-* Hourly.
+* Hour.
 
 ![accidents_deaths_per_hour](/images/accidents_deaths_per_hour_2018.png){:height="450px" width="800px"}
 
@@ -88,7 +88,7 @@ Doing the analysis by shift, it is a little bit overdoing it but I think it will
 
 ![accidents_deaths_per_year](/images/accidents_deaths_by_shift_2018.png){:height="400px" width="800px"}
 
-Conclusion: while accidents seem to be something related to traffic (more traffic more accidents) the ones that bring death seem to be more associated with nigh time activities.
+Conclusion: while accidents seem to be more related to traffic (more traffic more accidents) the accidents with deaths look like they are more associated to the nigh oriented activities.
 
 
 Location Based Analysis
