@@ -80,13 +80,13 @@ This new chart is confirming all that we have been seeing so far. It is that the
 
 I love this chart. it shows exactly the non-correlation of the accidents as a total and the deadly ones.
 
-![accidents_deaths_per_year](/images/average_per_hour.png){:height="400px" width="800px"}
+![average_per_hour](/images/average_per_hour.png){:height="400px" width="800px"}
 
 * Shift
 
 Doing the analysis by shift, it is a little bit overdoing it but I think it will give a clearer picture of the non-correlation in hour for accidents as a whole and the ones with people dying. As a reminder: morning goes from 6am to 2pm, afternoon up until 10 and the rest is night.
 
-![accidents_deaths_per_year](/images/accidents_deaths_by_shift_2018.png){:height="400px" width="800px"}
+![accidents_deaths_by_shift](/images/accidents_deaths_by_shift_2018.png){:height="375px" width="800px"}
 
 Conclusion: while accidents seem to be more related to traffic (more traffic more accidents) the accidents with deaths look like they are more associated to the nigh oriented activities.
 
@@ -98,6 +98,16 @@ Location Based Analysis
 I will analyze accidents and deaths by district in Barcelona. I will show 3 plots, the value to measure in each one is: accidents, deaths or ratio deaths/accidents, respectively. I also classify by color each district a darker color corresponding a bigger value. Important to note how two districts (Eixample and Sant Marti) are the ones with more accidents and deaths ...
 
 ![shapefile_district_accidents](/images/shapefile_district_acc.png) | ![shapefile_district_deaths](/images/shapefile_district_dea.png)
+
+... but the picture changes a lot when we evaluate the ratio deaths/accident per district. Now we are talking about Les Corts and Nou Barris as the most dangerous districts.
+
+![shapefile_district_average](/images/shapefile_district_ratio.png)
+
+* Neighborhood
+
+Things change only a little bit when we talk about neighborhoods. The first important change is that we are going to be working with 74 neighborhoods instead of 10 districts and also the outcome is way more interesting. First, we will take a look at the accidents by neighborhood.
+
+![shapefile_district_accidents](/images/shapefile_district_acc.png)
 
 
 
