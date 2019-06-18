@@ -84,12 +84,14 @@ I love this chart. it shows exactly the non-correlation of the accidents as a to
 
 * Shift
 
-Doing the analysis by shift, it is a little bit overdoing it but I think it will give a clearer picture of the non-correlation in hour for accidents as a whole and the ones with people dying. As a reminder: morning goes from 6am to 2pm, afternoon up until 10 and the rest is night.
+Doing the analysis by shift, it is a little bit overdoing it but I think it will give a clearer picture of the non-correlation in hour for accidents as a whole and the ones with people dying. As a reminder: morning goes from 6am to 2pm, afternoon/evening up until 10 and the rest is night.
 
 ![accidents_deaths_by_shift](/images/accidents_deaths_by_shift_2018.png){:height="375px" width="800px"}
 
-Conclusion: while accidents seem to be more related to traffic (more traffic more accidents) the accidents with deaths look like they are more associated to the nigh oriented activities.
 
+Conclusion: All these charts (and others that I could plot) show how the accidents as a whole are more related to the traffic. More accidents during weekdays versus weekends, less accidents during the night shift vs the rest of the day,etc. On the other hand, the accidents in which people die tend to lean more towards the less busy times. As an example, we have the pie charts for the shifts.
+
+* Interesting Info accidents/deaths/barcelona.
 
 Location Based Analysis
 
