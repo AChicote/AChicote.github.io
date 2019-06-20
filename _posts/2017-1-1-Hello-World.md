@@ -80,7 +80,8 @@ This new chart is confirming all that we have been seeing so far. It is that the
 
 I love this chart. it shows exactly the non-correlation of the accidents as a total and the deadly ones.
 
-![average_per_hour](/images/average_per_hour.png){:height="400px" width="800px"}
+Missing a chart
+#![average_per_hour](/images/average_per_hour.png){:height="400px" width="800px"}
 
 * Shift
 
@@ -92,6 +93,10 @@ Doing the analysis by shift, it is a little bit overdoing it but I think it will
 Conclusion: All these charts (and others that I could plot) show how the accidents as a whole are more related to the traffic. More accidents during weekdays versus weekends, less accidents during the night shift vs the rest of the day,etc. On the other hand, the accidents in which people die tend to lean more towards the less busy times. As an example, we have the pie charts for the shifts.
 
 * Interesting Info accidents/deaths/barcelona.
+
+I just display a chart with some info regarding the accidents.
+
+![accidents_deaths_info](/images/accidents_deaths_info.png){:height="375px" width="800px"}
 
 Location Based Analysis
 
