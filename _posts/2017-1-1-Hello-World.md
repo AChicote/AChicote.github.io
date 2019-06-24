@@ -78,11 +78,6 @@ In this case, we can see how the line representing the number of deaths, peaks u
 
 This new chart is confirming all that we have been seeing so far. It is that the riskiest time to drive in Barcelona is during the early morning mainly during the weekend. The first chart, similar to the one we had for the weekend, shows that correlation broken between accidents and deaths.
 
-I love this chart. it shows exactly the non-correlation of the accidents as a total and the deadly ones.
-
-Missing a chart
-#![average_per_hour](/images/average_per_hour.png){:height="400px" width="800px"}
-
 * Shift
 
 Doing the analysis by shift, it is a little bit overdoing it but I think it will give a clearer picture of the non-correlation in hour for accidents as a whole and the ones with people dying. As a reminder: morning goes from 6am to 2pm, afternoon/evening up until 10 and the rest is night.
@@ -106,7 +101,7 @@ I will analyze accidents and deaths by district in Barcelona. I will show 3 plot
 
 ![shapefile_district_accidents](/images/shapefile_district_acc.png) | ![shapefile_district_deaths](/images/shapefile_district_dea.png)
 
-... but the picture changes a lot when we evaluate the ratio deaths/accident per district. Now we are talking about Les Corts and Nou Barris as the most dangerous districts.
+... but the picture changes when we evaluate the ratio deaths/accident per district. Now we are talking about Les Corts and Nou Barris as the most dangerous districts.
 
 ![shapefile_district_average](/images/shapefile_district_ratio.png)
 
