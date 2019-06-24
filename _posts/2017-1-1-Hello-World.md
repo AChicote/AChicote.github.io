@@ -107,10 +107,12 @@ I will analyze accidents and deaths by district in Barcelona. I will show 3 plot
 
 * Neighborhood
 
-Things change only a little bit when we talk about neighborhoods. The first important change is that we are going to be working with 74 neighborhoods instead of 10 districts and also the outcome is way more interesting. First, we will take a look at the accidents by neighborhood.
+Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents and deaths by neighborhood plus its ratio (with the last one things get really interesting).
 
-![shapefile_district_accidents](/images/shapefile_district_acc.png)
+![shapefile_neighborhood_acc](/images/shapefile_neighborhood_acc.png)|![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
 
+
+Let's have a look at the top 10 in each category.
 
 
 
