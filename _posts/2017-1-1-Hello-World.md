@@ -107,7 +107,7 @@ I will analyze accidents and deaths by district in Barcelona. I will show 3 plot
 
 What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts and Nou Bariis, where there is not a lot of traffic, gets the winning position.
 
-* Neighborhood
+* Neighborhood.
 
 Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents.
 
@@ -122,17 +122,14 @@ Things change only a little bit when we talk about neighborhoods. The first impo
 ![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
 
 
-Let's have a look at the top 10 in each category so we can put a name on them and also ratify what we already know and/or imagine: the neighborhoods with the highest number of accidents and deaths do not have (except for 2 cases) the highest value for the ratio deaths/accidents.
+Let's have a look at the top 10 in each category so we can put a name on them and also ratify what we already know and/or imagine: the neighborhoods with the highest number of accidents and deaths do not have (except for 2 cases) the highest value for the ratio deaths/accidents. I create this table because I think it is better to work with than charts.
 
-![barchart_neighborhood_deaths_acc_2018](/images/deaths_accidents_per_neighborhood_2018.png)
-
-Here you have the classification by ratio:
-
-![barchart_neighborhood_ratio_2018](/images/ratio_per_neighborhood_2018.png)
+![table_neighborhood_2018](/images/table_neighborhood_2018.png)
 
 I did not want to finish this part without showing( via a python script) how they do barely have any common elements:
 
-"""#How many of ghe neighborhoods with more accidents have also a high rate death/accidents?
+"""
+How many of the neighborhoods with more accidents have also a high rate death/accidents?
 most_accidents = set(neighborhood.sort_values('number_of_accidents', ascending=False).head(10).index)
 most_ratio = set(neighborhood[neighborhood['number_of_accidents'] > 100].sort_values('deaths_per_accident', ascending=False).head(10).index)
 most_deaths = set(neighborhood.sort_values('number_of_deaths', ascending=False).head(10).index)
@@ -144,15 +141,21 @@ def common_member(a, b):
     else:
         print("No common elements")
 common_member(most_accidents, most_ratio)
-common_member(most_deaths,most_ratio) """
+common_member(most_deaths,most_ratio)
+
+"""
 
 Being the outcome:
 
 No Common elements
 {'el Guinardo', 'el Putxet i el Farro'}
 
+* Streets.
 
+I do not want to repeat myself again so I will go straight to the point: street follows the relationship with accidents, deaths and its ratio the same way than the neighborhoods did.
 
+* Neighborhood & Streets
+* Neighborhood/Street/hour
 
 * Let's have a closer look at the number of deaths and injured per accidents.
 
