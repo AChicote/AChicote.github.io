@@ -105,19 +105,24 @@ I will analyze accidents and deaths by district in Barcelona. I will show 3 plot
 
 ![shapefile_district_average](/images/shapefile_district_ratio.png)
 
-* Neighborhood
-
-Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents and deaths by neighborhood plus its ratio (with the last one things get really interesting).
-
-![shapefile_neighborhood_acc](/images/shapefile_neighborhood_acc.png)|![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
-
-
-Let's have a look at the top 10 in each category.
-
-
-
 What I realized about Barcelona is that the Eixample district is the one that has a lot of the traffic and therefore the accidents and the number of deaths but if you analyze the ratio of the number of deaths per accident it is really low and Les Corts and Nou Bariis, where there is not a lot of traffic, gets the winning position.
 
+* Neighborhood
+
+Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents. and almost immediately two thing jump out:and deaths by neighborhood plus its ratio (with the last one things get really interesting).
+
+![shapefile_neighborhood_acc](/images/shapefile_neighborhood_acc.png)
+
+ There are two things that jump out: 1. What a hell is doing that red neighborhood in the middle? Sant Andreu neighborhood. 2. Do the dark area in most neighborhoodsfollows Diagonal Avenue? I decided to draw Diagonal on top of the map to confirm it.
+
+ ![shapefile_neighborhood_diagonal](/images/accidents_diagonal_2018.png)
+
+ Also, as it happened with the districts, those neighborhoods with the higher numbers of accidents and deaths DO not correspond with the neighborhoods with a higher deaths/accidents ratio.
+
+![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
+
+
+Let's have a look at the top 10 in each category. Once again: the neighborhoods with a ahigher number of accidents and deaths are not (except for exceptions) in the top when we take into consideration the ratio deaths/accidents.
 
 
 
