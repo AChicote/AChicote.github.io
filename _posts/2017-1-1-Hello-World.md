@@ -109,11 +109,11 @@ What I realized about Barcelona is that the Eixample district is the one that ha
 
 * Neighborhood
 
-Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents. and almost immediately two thing jump out:and deaths by neighborhood plus its ratio (with the last one things get really interesting).
+Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents.
 
 ![shapefile_neighborhood_acc](/images/shapefile_neighborhood_acc.png)
 
- There are two things that jump out: 1. What a hell is doing that red neighborhood in the middle? Sant Andreu neighborhood. 2. Do the dark area in most neighborhoodsfollows Diagonal Avenue? I decided to draw Diagonal on top of the map to confirm it.
+ There are two things that jump out: 1. What a hell is doing that red neighborhood in the middle? Sant Andreu neighborhood. 2. Do the dark area in most neighborhoods follow Diagonal Avenue? I decided to draw Diagonal on top of the map to confirm it.
 
  ![shapefile_neighborhood_diagonal](/images/accidents_diagonal_2018.png)
 
@@ -122,7 +122,35 @@ Things change only a little bit when we talk about neighborhoods. The first impo
 ![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
 
 
-Let's have a look at the top 10 in each category. Once again: the neighborhoods with a ahigher number of accidents and deaths are not (except for exceptions) in the top when we take into consideration the ratio deaths/accidents.
+Let's have a look at the top 10 in each category so we can put a name on them and also ratify what we already know and/or imagine: the neighborhoods with the highest number of accidents and deaths do not have (except for 2 cases) the highest value for the ratio deaths/accidents.
+
+![barchart_neighborhood_deaths_acc_2018](/images/deaths_accidents_per_neighborhood_2018.png)
+
+Here you have the classification by ratio:
+
+![barchart_neighborhood_ratio_2018](/images/ratio_per_neighborhood_2018.png)
+
+I did not want to finish this part without showing( via a python script) how they do barely have any common elements:
+
+"""#How many of ghe neighborhoods with more accidents have also a high rate death/accidents?
+most_accidents = set(neighborhood.sort_values('number_of_accidents', ascending=False).head(10).index)
+most_ratio = set(neighborhood[neighborhood['number_of_accidents'] > 100].sort_values('deaths_per_accident', ascending=False).head(10).index)
+most_deaths = set(neighborhood.sort_values('number_of_deaths', ascending=False).head(10).index)
+def common_member(a, b):
+    a_set = set(a)
+    b_set = set(b)
+    if (a_set & b_set):
+        print(a_set & b_set)
+    else:
+        print("No common elements")
+common_member(most_accidents, most_ratio)
+common_member(most_deaths,most_ratio) """
+
+Being the outcome:
+
+No Common elements
+{'el Guinardo', 'el Putxet i el Farro'}
+
 
 
 
