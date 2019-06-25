@@ -124,11 +124,11 @@ Things change only a little bit when we talk about neighborhoods. The first impo
 
 Let's have a look at the top 10 in each category so we can put a name on them and also ratify what we already know and/or imagine: the neighborhoods with the highest number of accidents and deaths do not have (except for 2 cases) the highest value for the ratio deaths/accidents. I create this table because I think it is better to work with than charts.
 
-![table_neighborhood_2018](/images/table_neighborhood_2018.png)
+![table_neighborhood_2018](/images/table_neighborhoods_2018.png)
 
 I did not want to finish this part without showing( via a python script) how they do barely have any common elements:
 
-"""
+```
 How many of the neighborhoods with more accidents have also a high rate death/accidents?
 most_accidents = set(neighborhood.sort_values('number_of_accidents', ascending=False).head(10).index)
 most_ratio = set(neighborhood[neighborhood['number_of_accidents'] > 100].sort_values('deaths_per_accident', ascending=False).head(10).index)
@@ -143,7 +143,7 @@ def common_member(a, b):
 common_member(most_accidents, most_ratio)
 common_member(most_deaths,most_ratio)
 
-"""
+```
 
 Being the outcome:
 
