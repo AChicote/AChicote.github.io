@@ -182,11 +182,20 @@ To shed some light into the relationships neighborhoods and street, I plotted on
 
 Accidents:
 
-![shapefile_acc-neigh_street_2018](/images/table_neighborhood_street_2018.png)
+![shapefile_acc_neigh_street_2018](/images/accidents_neigh_carrers_2018.png)
+
+Deaths:
+
+![shapefile_dea_neigh_street_2018](/images/deaths_neigh_carrers_2018.png)
+
+Ratio:
+
+![shapefile_ratio_neigh_street_2018](/images/ratio_neigh_carrers_2018.png)
+
+Conclusion:
 
 
-
-* Neighborhood/Street/hour
+* Neighborhood/Street/Shift
 
 * Let's have a closer look at the number of deaths and injured per accidents.
 
