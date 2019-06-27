@@ -194,6 +194,8 @@ Ratio:
 
 Conclusion:
 
+While the streets with more accidents and deaths are the most important streets of the city than receive most of the traffic, the street with the highest rate of death.accident are secondary  despite eliminating those in which there were less than 100 accidents.
+
 
 * Neighborhood/Street/Shift
 
