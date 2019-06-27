@@ -148,13 +148,44 @@ common_member(most_deaths,most_ratio)
 Being the outcome:
 
 No Common elements
+
 {'el Guinardo', 'el Putxet i el Farro'}
 
 * Streets.
 
-I do not want to repeat myself again so I will go straight to the point: street follows the relationship with accidents, deaths and its ratio the same way than the neighborhoods did.
+I do not want to repeat myself again so I will go straight to the point: street follows the relationship with accidents, deaths and its ratio the same way than the neighborhoods did. It means that the streets that have the highest numbers of accidents and deaths are not the ones that have the highest numbers when it comes to the ratio death/accidents (considering only the streets with more than 100 accidents in the latter).
+The other consideration to be made: I made an analysis of the effect of the cross roads in the accidents and included them in the calculations made afterwards in the streets and their impact in accidents and deaths.
+Finally, I did a fairly good work cleaning up the names of the streets but some small fixes might be still pending.
+
+![piechart_crossing_streets_2018](/images/accidents_deaths_by_crossing_2018.png)
+
+
+Once added all the cross roads as streets:
+
+![barchart_acc_and_dea_street_2018](/images/deaths_accidents_per_street_2018_w_crossing.png)
+
+This the outcome when we analyze the streets with its ratio:
+
+![barchart_ratio_street_2018](/images/ratio_per_street_2018_w_crossing.png)
+
+Once again, the 10 streets with more accidents are not on the top 10 when it comes to ratio death/accidents and only Reina Elisenda is on the top 10 by deaths and ratio.
+
+![table_street_2018](/images/table_street_2018.png)
 
 * Neighborhood & Streets
+
+First, what are the most dangerous streets in the most dangerous neighborhoods?
+
+![table_neighborhood_street_2018](/images/table_neighborhood_street_2018.png)
+
+To shed some light into the relationships neighborhoods and street, I plotted on top of the charts of the classification by neighborhood the streets more active in accidents, deaths and ratio.
+
+Accidents:
+
+![shapefile_acc-neigh_street_2018](/images/table_neighborhood_street_2018.png)
+
+
+
 * Neighborhood/Street/hour
 
 * Let's have a closer look at the number of deaths and injured per accidents.
