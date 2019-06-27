@@ -170,7 +170,7 @@ This the outcome when we analyze the streets with its ratio:
 
 Once again, the 10 streets with more accidents are not on the top 10 when it comes to ratio death/accidents and only Reina Elisenda is on the top 10 by deaths and ratio.
 
-![table_street_2018](/images/table_street_2018.png)
+![table_street_2018](/images/table_streets_2018.png)
 
 * Neighborhood & Streets
 
