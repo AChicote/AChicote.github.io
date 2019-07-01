@@ -55,7 +55,7 @@ The trend is clear in both cases; while the accidents have been increasing durin
 
 * Month.
 
-![accidents_deaths_per_month2](/images/accidents_deaths_per_month_2018.png){:height="375px" width="800px"}
+![accidents_deaths_per_month2](/images/accidents_deaths_per_month_2018.png)
 
 In the graph, we can see how the number of accidents keep steadily during most part of the year except for July and August where they clearly go down.
 When it comes to analyze deaths, the picture changes. While it looks like the previous months to summer it slows down ( less people dying), it peaks in summer to then go down again.
@@ -117,7 +117,7 @@ Things change only a little bit when we talk about neighborhoods. The first impo
 
  ![shapefile_neighborhood_diagonal](/images/accidents_diagonal_2018.png)
 
- Also, as it happened with the districts, those neighborhoods with the higher numbers of accidents and deaths DO not correspond with the neighborhoods with a higher deaths/accidents ratio.
+ Also, as it happened with the districts, those neighborhoods with the higher numbers of accidents and deaths DO NOT correspond with the neighborhoods with a higher deaths/accidents ratio.
 
 ![shapefile_neighborhood_dea](/images/shapefile_neighborhood_deaths.png)|![shapefile_neighborhood_ratio](/images/shapefile_neighborhood_ratio.png)|
 
