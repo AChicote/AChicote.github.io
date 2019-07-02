@@ -111,11 +111,11 @@ What I realized about Barcelona is that the Eixample district is the one that ha
 
 Things change only a little bit when we talk about neighborhoods. The first important change is the number of neighborhoods that is 74 instead of 10 districts. First, we will take a look at the accidents.
 
-![shapefile_neighborhood_acc](/images/shapefile_neighborhood_acc.png)
+![shapefile_neighborhood_acc](/images/neighborhoods_accidents.png)
 
- There are two things that jump out: 1. What a hell is doing that red neighborhood in the middle? Sant Andreu neighborhood. 2. Do the dark area in most neighborhoods follow Diagonal Avenue? I decided to draw Diagonal on top of the map to confirm it.
+ There are some things that jump out: 1. What a hell is doing that red neighborhood in the middle? Sant Andreu neighborhood. The explanation is this: when we split neighborhoods on 6 types by amount of accidents, Sant Andreu just makes it to the first group. 2. How the first neighborhood (La Dreta de l'Eixample) doubles in number the second neighborhood. 3. Do the dark area in most neighborhoods corresponds to the pass of important streets and avenues? I decided to draw Diagonal, Corts Catalanes and Arago (the three streets with more accidents) on top of the map with la Dreta de l'Eixampla in red to confirm it.
 
- ![shapefile_neighborhood_diagonal](/images/accidents_diagonal_2018.png)
+ ![shapefile_neighborhood_diagonal](/images/dreta_eixample_2018.png)
 
  Also, as it happened with the districts, those neighborhoods with the higher numbers of accidents and deaths DO NOT correspond with the neighborhoods with a higher deaths/accidents ratio.
 
@@ -194,7 +194,7 @@ Ratio:
 
 Conclusion:
 
-While the streets with more accidents and deaths are the most important streets of the city than receive most of the traffic, the street with the highest rate of death.accident are secondary  despite eliminating those in which there were less than 100 accidents.
+While the streets with more accidents and deaths are the most important streets of the city that receive most of the traffic, the street with the highest rate of deaths per accident are secondary streets where the traffic is less. And this happen after I eliminate the streets where there have had, at least, 100 accidents.
 
 
 * Neighborhood/Street/Shift
