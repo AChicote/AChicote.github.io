@@ -197,7 +197,18 @@ Conclusion:
 While the streets with more accidents and deaths are the most important streets of the city that receive most of the traffic, the street with the highest rate of deaths per accident are secondary streets where the traffic is less. And this happen after I eliminate the streets where there have had, at least, 100 accidents.
 
 
-* Neighborhood/Street/Shift
+* Crossing versus non crossing Streets
+
+Let's analyze if the fact that the accident takes place in a crossing, has influence in the outcome of the accident.
+
+![Taulacrossingvsnotcrossingaccidents](/images/deaths_accidents_per_street_2018.png){:height="300px" width="500px"}
+
+As a consequence, if we add crossing streets as 2 separated streets, how does it change the outcome on the ratio per street?
+
+![Taularatioaccidentsdeathswithcrossingstreets](/images/ratio_per_street_2018_w_crossing.png){:height="300px" width="500px"}
+
+* Pedestrians
+
 
 * Let's have a closer look at the number of deaths and injured per accidents.
 
